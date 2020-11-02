@@ -1,0 +1,755 @@
+/*! GLOBAL */
+
+
+/*! COOLORS TEMPLATE: https://coolors.co/22223b-4a4e69-9a8c98-c9ada7-f2e9e4 */
+/*! COOLORS TEMPLATE: https://coolors.co/fb3640-605f5e-1d3461-1f487e-247ba0 */
+
+/*
+	RED: #FB3640;
+	BROWN: #605F5E;
+	D. BLUE: #1D3461;
+	M. BLUE: #1F487E;
+	L. BLUE: #247BA0;
+*/
+
+body {
+	color: #605F5E;
+	font-family: 'Hind', Helvetica, Arial, sans-serif;
+	/*font-family: 'Cutive Mono', monospace;*/
+	/*background: linear-gradient(to bottom, #fff, rgba(251,54,64,0.8));*/
+}
+
+.ff-sans {
+	font-family: 'Hind', Helvetica, Arial, sans-serif;
+	/*font-family: 'Cutive Mono', monospace;*/
+}
+
+.ff-serif {
+	font-family:'Libre Baskerville', Georgia, Times, serif;
+}
+
+.hippo {
+	color: #FB3640;
+}
+
+.nopad {
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Libre Baskerville', Georgia, Times, serif;
+	margin-top: 0;
+	margin-bottom: 17px;
+}
+
+h1 {
+	color: #1D3461;
+}
+
+h2 {
+	color: #247BA0;
+}
+
+h3 {
+	color: #1F487E;
+}
+
+body,
+p {
+	font-size: 18px;
+	color: #605F5E;
+	margin: 0;
+}
+
+p {
+	margin-bottom: 17px;
+}
+
+a {
+	color: #247BA0;
+	transition: color .5s ease-in-out;
+}
+
+a:hover,
+a:focus {
+	color: #FB3640;
+	text-decoration: none;
+	outline: none;
+}
+
+ol,
+ul {
+	margin-bottom: 17px;
+}
+
+img {
+	filter: grayscale(100%);
+	border-radius: 5%;
+	transition: all .5s ease-in-out;
+}
+
+img:hover {
+	filter: grayscale(0);
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.img-caption {
+	font-style: italic;
+}
+
+::-moz-selection {
+	color: #fff;
+	background-color: #FB3640;
+}
+::selection {
+	color: #fff;
+	background-color: #FB3640;
+}
+
+.btn-red {
+	background-color: #FB3640;
+	color: #fff;
+	border: 1px solid #FB3640;
+	font-weight: 700;
+}
+
+.btn-red:hover,
+.btn-red:focus {
+	background-color: #fff;
+	color: #FB3640;
+	border: 1px solid #FB3640;
+}
+
+
+/*! HEADER */
+
+/*! PROGRESS BAR */
+
+progress {
+	position: fixed;
+	left: 0;
+	top: 36px;
+	width: 100%;
+	height: 1px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	background-color: transparent;
+	z-index: 1031;
+}
+
+progress::-webkit-progress-bar {
+	background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+	background-color: #fff;
+}
+
+progress::-moz-progress-bar {
+	background-color: #fff;
+}
+
+/*! NAV */
+
+.navbar {
+	background-color: #FB3640;
+	color: #fff;
+	height: 50px;
+}
+
+.navbar a {
+	color: #fff;
+}
+
+.navbar-brand {
+	
+}
+
+.navbar li a:hover {
+	color: #fff;
+}
+
+.navbar li:nth-of-type(odd) a:hover {
+	background-color: #1D3461;
+}
+
+.navbar li:nth-of-type(even) a:hover {
+	background-color: #247BA0;
+}
+
+.navbar li a:focus {
+	background-color: #FB3640;
+}
+
+.navbar-brand span,
+.copywrite span {
+	opacity: 0;
+	transition: opacity .5s ease-in-out;
+}
+
+.navbar:hover .navbar-brand span,
+.copywrite:hover span {
+	opacity: 1;
+}
+
+.navbar-toggle {
+	float: right;
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	margin: 0;
+}
+
+#navbar {
+	background-color: #FB3640;
+	
+}
+
+
+/*! CONTENT */
+
+section {
+	min-height: 100vh;
+	padding: 65px 0 15px;
+}
+
+/*! SECTION - HOME */
+
+h1.hello {
+	font-family: 'Cutive Mono', monospace;
+	margin-top: 35vh;
+	margin-bottom: 100px;
+}
+
+#home section {
+	position: relative;
+}
+
+#home .down {
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	bottom: 50px;
+	cursor: pointer;
+}
+
+
+/*! SECTION - ME */
+
+
+
+
+/*! SECTION - SERVICES */
+
+
+
+
+/*! SECTION - WORK */
+
+.mock {
+	margin-bottom: 34px;
+	cursor: pointer;
+}
+
+.mock p {
+	margin-bottom: 0;
+}
+
+.mock h3 a {
+	color: #FB3640;
+}
+
+.mock img {
+	filter: none;
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+	transition: none;
+	margin-bottom: 17px;
+}
+
+#featured-mock {
+	border: 0;
+	box-shadow: none;
+	filter: none;
+}
+
+#featured-mock h3,
+#featured-mock p {
+	opacity: 1;
+}
+
+/*! SECTION - CONTACT */
+
+
+#headshot {
+	border-radius: 50%;
+	margin-bottom: 34px;
+	width: 50%;
+}
+
+.contact-middle ul {
+	margin-bottom: 0;
+}
+
+.contact-middle .row {
+	margin-bottom: 7px;
+}
+
+.social ul li a i {
+	font-size: 24px;
+	padding: 0 7px;
+}
+
+#contactMessage {
+	height: 83px;
+}
+
+.form-control {
+	text-transform: uppercase;
+	background: transparent;
+	color: #000;
+	box-shadow: none;
+	margin-bottom: 30px;
+}
+.form-control:focus {
+	box-shadow: none;
+}
+
+.btn-contact {
+	background: #1F487E;
+	color: #fff;
+	width: 100%;
+	font-weight: 700;
+	border-radius: 0;
+	padding: 7px;
+	transition: border-radius .5s ease-in-out, background-color .5s ease-in-out;
+}
+
+.btn-contact:hover,
+.btn-contact:focus {
+	background-color: #247BA0;
+	color: #fff;
+	border-radius: 4px;
+}
+
+
+
+/*! SECTION - POWERBALL */
+
+.ticket {
+	margin-bottom: 30px;
+}
+
+.ball-box {
+	text-align: center;
+}
+
+.ball {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #7f7f7f;
+	background-color: #fff;
+}
+
+.ball:first-of-type {
+	margin-left: 0;
+}
+
+.ball:last-of-type {
+	margin-right: 0;
+}
+
+.ball span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #000;
+	font-weight: 600;
+	line-height: 18px;
+}
+
+.powerball {
+	border: 2px solid #FB3640;
+}
+
+
+/*! FOOTER */
+
+footer {
+	height: 50px;
+	background-color: #605F5E;
+	color: #fff;
+}
+
+footer span {
+	line-height: 50px;
+}
+
+/*! HAPPY FOX CHAT CLIENT */
+
+.hfc-title-text {
+	font-family: 'Libre Baskerville', Georgia, Times, serif !important;
+}
+
+h2.hfc-badge-title,
+.hfc-quote {
+	font-family: 'Hind', Helvetica, Arial, sans-serif !important;
+}
+
+
+
+/*! TYPED CURSOR */
+
+.typed-cursor {
+    opacity: 1;
+    color: #FB3640;
+    -webkit-animation: blink 0.8s infinite;
+    -moz-animation: blink 0.8s infinite;
+    animation: blink 0.8s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+/*! FONT SIZES */
+
+/*! Custom Font Sizes */
+
+.fs-6 {font-size: 6px;}
+.fs-7 {font-size: 7px;}
+.fs-8 {font-size: 8px;}
+.fs-9 {font-size: 9px;}
+.fs-10 {font-size: 10px;}
+.fs-11 {font-size: 11px;}
+.fs-12 {font-size: 12px;}
+.fs-13 {font-size: 13px;}
+.fs-14 {font-size: 14px;}
+.fs-15 {font-size: 15px;}
+.fs-16 {font-size: 16px;}
+.fs-17 {font-size: 17px;}
+.fs-18 {font-size: 18px;}
+.fs-19 {font-size: 19px;}
+.fs-20 {font-size: 20px;}
+.fs-21 {font-size: 21px;}
+.fs-22 {font-size: 22px;}
+.fs-23 {font-size: 23px;}
+.fs-24 {font-size: 24px;}
+.fs-25 {font-size: 25px;}
+.fs-26 {font-size: 26px;}
+.fs-27 {font-size: 27px;}
+.fs-28 {font-size: 28px;}
+.fs-29 {font-size: 29px;}
+.fs-30 {font-size: 30px;}
+.fs-31 {font-size: 31px;}
+.fs-32 {font-size: 32px;}
+.fs-33 {font-size: 33px;}
+.fs-34 {font-size: 34px;}
+.fs-35 {font-size: 35px;}
+.fs-36 {font-size: 36px;}
+.fs-37 {font-size: 37px;}
+.fs-38 {font-size: 38px;}
+.fs-39 {font-size: 39px;}
+.fs-40 {font-size: 40px;}
+.fs-41 {font-size: 41px;}
+.fs-42 {font-size: 42px;}
+.fs-43 {font-size: 43px;}
+.fs-44 {font-size: 44px;}
+.fs-45 {font-size: 45px;}
+.fs-46 {font-size: 46px;}
+.fs-47 {font-size: 47px;}
+.fs-48 {font-size: 48px;}
+.fs-49 {font-size: 49px;}
+.fs-50 {font-size: 50px;}
+.fs-51 {font-size: 51px;}
+.fs-52 {font-size: 52px;}
+.fs-53 {font-size: 53px;}
+.fs-54 {font-size: 54px;}
+.fs-55 {font-size: 55px;}
+.fs-56 {font-size: 56px;}
+.fs-57 {font-size: 57px;}
+.fs-58 {font-size: 58px;}
+.fs-59 {font-size: 59px;}
+.fs-60 {font-size: 60px;}
+.fs-61 {font-size: 61px;}
+.fs-62 {font-size: 62px;}
+.fs-63 {font-size: 63px;}
+.fs-64 {font-size: 64px;}
+.fs-65 {font-size: 65px;}
+.fs-66 {font-size: 66px;}
+.fs-67 {font-size: 67px;}
+.fs-68 {font-size: 68px;}
+.fs-69 {font-size: 69px;}
+.fs-70 {font-size: 70px;}
+.fs-71 {font-size: 71px;}
+.fs-72 {font-size: 72px;}
+.fs-73 {font-size: 73px;}
+.fs-74 {font-size: 74px;}
+.fs-75 {font-size: 75px;}
+.fs-76 {font-size: 76px;}
+.fs-77 {font-size: 77px;}
+.fs-78 {font-size: 78px;}
+.fs-79 {font-size: 79px;}
+.fs-80 {font-size: 80px;}
+.fs-81 {font-size: 81px;}
+.fs-82 {font-size: 82px;}
+.fs-83 {font-size: 83px;}
+.fs-84 {font-size: 84px;}
+.fs-85 {font-size: 85px;}
+.fs-86 {font-size: 86px;}
+.fs-87 {font-size: 87px;}
+.fs-88 {font-size: 88px;}
+.fs-89 {font-size: 89px;}
+.fs-90 {font-size: 90px;}
+.fs-91 {font-size: 91px;}
+.fs-92 {font-size: 92px;}
+.fs-93 {font-size: 93px;}
+.fs-94 {font-size: 94px;}
+.fs-95 {font-size: 95px;}
+.fs-96 {font-size: 96px;}
+.fs-97 {font-size: 97px;}
+.fs-98 {font-size: 98px;}
+.fs-99 {font-size: 99px;}
+
+/*! MM Custome Font Sizes - XS DEVICES */
+
+@media (max-width: 767px) {
+	.fs-6 {font-size: 6px;}
+	.fs-7 {font-size: 7px;}
+	.fs-8 {font-size: 8px;}
+	.fs-9 {font-size: 9px;}
+	.fs-10 {font-size: 10px;}
+	.fs-11 {font-size: 11px;}
+	.fs-12 {font-size: 12px;}
+	.fs-13 {font-size: 13px;}
+	.fs-14 {font-size: 14px;}
+	.fs-15 {font-size: 15px;}
+	.fs-16 {font-size: 16px;}
+	.fs-17 {font-size: 17px;}
+	.fs-18 {font-size: 18px;}
+	.fs-19 {font-size: 19px;}
+	.fs-20 {font-size: 20px;}
+	.fs-21 {font-size: 21px;}
+	.fs-22 {font-size: 22px;}
+	.fs-23 {font-size: 23px;}
+	.fs-24 {font-size: 24px;}
+	.fs-25 {font-size: 25px;}
+	.fs-26 {font-size: 26px;}
+	.fs-27 {font-size: 27px;}
+	.fs-28 {font-size: 28px;}
+	.fs-29 {font-size: 29px;}
+	.fs-30 {font-size: 30px;}
+	.fs-31 {font-size: 31px;}
+	.fs-32 {font-size: 32px;}
+	.fs-33 {font-size: 33px;}
+	.fs-34 {font-size: 34px;}
+	.fs-35 {font-size: 35px;}
+	.fs-36 {font-size: 36px;}
+	.fs-37 {font-size: 37px;}
+	.fs-38 {font-size: 38px;}
+	.fs-39 {font-size: 39px;}
+	.fs-40 {font-size: 40px;}
+	.fs-41 {font-size: 41px;}
+	.fs-42 {font-size: 42px;}
+	.fs-43 {font-size: 43px;}
+	.fs-44 {font-size: 44px;}
+	.fs-45 {font-size: 45px;}
+	.fs-46 {font-size: 46px;}
+	.fs-47 {font-size: 47px;}
+	.fs-48 {font-size: 48px;}
+	.fs-49 {font-size: 49px;}
+	.fs-50 {font-size: 50px;}
+	.fs-51 {font-size: 51px;}
+	.fs-52 {font-size: 52px;}
+	.fs-53 {font-size: 53px;}
+	.fs-54 {font-size: 54px;}
+	.fs-55 {font-size: 55px;}
+	.fs-56 {font-size: 56px;}
+	.fs-57 {font-size: 57px;}
+	.fs-58 {font-size: 58px;}
+	.fs-59 {font-size: 59px;}
+	.fs-60 {font-size: 60px;}
+	.fs-61 {font-size: 61px;}
+	.fs-62 {font-size: 62px;}
+	.fs-63 {font-size: 63px;}
+	.fs-64 {font-size: 64px;}
+	.fs-65 {font-size: 65px;}
+	.fs-66 {font-size: 66px;}
+	.fs-67 {font-size: 67px;}
+	.fs-68 {font-size: 68px;}
+	.fs-69 {font-size: 69px;}
+	.fs-70 {font-size: 70px;}
+	.fs-71 {font-size: 71px;}
+	.fs-72 {font-size: 72px;}
+	.fs-73 {font-size: 73px;}
+	.fs-74 {font-size: 74px;}
+	.fs-75 {font-size: 75px;}
+	.fs-76 {font-size: 76px;}
+	.fs-77 {font-size: 77px;}
+	.fs-78 {font-size: 78px;}
+	.fs-79 {font-size: 79px;}
+	.fs-80 {font-size: 80px;}
+	.fs-81 {font-size: 81px;}
+	.fs-82 {font-size: 82px;}
+	.fs-83 {font-size: 83px;}
+	.fs-84 {font-size: 84px;}
+	.fs-85 {font-size: 85px;}
+	.fs-86 {font-size: 86px;}
+	.fs-87 {font-size: 87px;}
+	.fs-88 {font-size: 88px;}
+	.fs-89 {font-size: 89px;}
+	.fs-90 {font-size: 90px;}
+	.fs-91 {font-size: 91px;}
+	.fs-92 {font-size: 92px;}
+	.fs-93 {font-size: 93px;}
+	.fs-94 {font-size: 94px;}
+	.fs-95 {font-size: 95px;}
+	.fs-96 {font-size: 96px;}
+	.fs-97 {font-size: 97px;}
+	.fs-98 {font-size: 98px;}
+	.fs-99 {font-size: 99px;}
+} 
+
+
+
+/*! MEDIA QUERIES */
+
+/*! XS DEVICES */
+@media (max-width: 767px) {
+	
+
+
+}
+
+
+
+/*! SM DEVICES */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+
+}
+
+
+
+/*! XS & SM DEVICES */
+@media (max-width: 991px) {
+	
+
+}
+
+
+
+/*! SM & Up */
+@media (min-width: 768px) {
+
+	.ball {
+		width: 50px;
+		height: 50px;
+	}
+	
+}
+
+
+
+
+
+
+
+/*! MD DEVICES */
+@media (min-width: 992px) and (max-width: 1199px){
+	
+	#headshot {
+		width: 75%;
+	}
+}
+
+
+/*! MD & Up */
+@media (min-width: 992px){
+	
+	section {
+		
+		/*min-height: 700px;*/
+	}
+	
+	.mock {
+		filter: grayscale(100%);
+		padding: 17px;
+		border: 10px solid transparent;
+		border-radius: 5%;
+		transition: all .25s ease-in-out;
+	}
+	
+	.mock h3,
+	.mock p {
+		opacity: 0;
+		transition: all .5s ease-in-out;
+	}
+	
+	.mock:hover {
+		filter: grayscale(0);
+		box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+		color: inherit;
+	}
+	
+	.mock:hover h3,
+	.mock:hover p {
+		opacity: 1;
+	}
+	
+	#headshot {
+		margin-top: -10px;
+	}
+	
+	.btn-contact {
+		width: 50%;
+		float: right;
+	}
+	
+	.contact-left ul li a i {
+		padding: 0;
+	}
+	
+}
+
+
+
+/*! XS, SM & MD DEVICES */
+@media (max-width: 1199px) {
+	
+
+}
+
+
+
+/*! LG & Up */
+@media (min-width: 1200px) {
+
+	#headshot {
+		width: 100%;
+	}
+	
+}
